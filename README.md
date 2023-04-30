@@ -1,5 +1,5 @@
 ## 生PHPでMVCを作るためのロードマップ
-1. index.php にルーティング機能を作る
+1. index.php にルーティング機能を作る  
     **要件**  
     http://localhost/PathA/PathB/ でアクセスした時、`PathAController.php` の `PathB()` メソッドを呼び出すようにする。  
     PathA がない場合は TopController.php を読み込む。  
